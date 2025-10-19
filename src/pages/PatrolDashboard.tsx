@@ -37,7 +37,7 @@ interface Report {
 }
 
 const PatrolDashboard: React.FC = () => {
-  const { currentUser, userProfile } = useAuth();
+  const { currentUser } = useAuth();
   const [assignedReports, setAssignedReports] = useState<Report[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedReport, setSelectedReport] = useState<Report | null>(null);

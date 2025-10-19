@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { doc, updateDoc, collection, query, where, getDocs, increment } from 'firebase/firestore';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { db, storage } from '../firebase/config';
-import { X, MapPin, Calendar, User, Image as ImageIcon, Upload, CheckCircle, Award } from 'lucide-react';
+import { X, MapPin, Upload, CheckCircle } from 'lucide-react';
 
 interface Report {
   id: string;

@@ -5,7 +5,7 @@ import { Icon } from 'leaflet';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import { storage, db } from '../firebase/config';
-import { MapPin, Upload, X, AlertCircle } from 'lucide-react';
+import { MapPin, Upload, X } from 'lucide-react';
 import LoadingSpinner from './LoadingSpinner';
 import ErrorMessage from './ErrorMessage';
 import SuccessMessage from './SuccessMessage';
